@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typing Game</title>
-    <link ref="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Practice your typing</h1>
-    <div>
+    <h1 id="heading">Practice your typing</h1>
+    <div id="subheading">
       Click start to have a quote displayed. Type the quote as fast as you can!
     </div>
-    <p id="quote"></p>
-    <p id="message"></p>
-    <div>
-        <input type="text" aria-label="current word" id="typed-word"/>
-    </div>
-    <div>
-        <button type="button" id="start">Start!</button>
+    <div id="container"> <!--later align it to the center of the page regardless of window dimmensions-->
+        <p id="quote"></p>
+        <p id="message"></p>
+        <div>
+            <input type="text" aria-label="current word" id="typed-value"/>
+        </div>
+        <div>
+            <button type="button" id="start">Start!</button>
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>

@@ -1,0 +1,30 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+#heading {
+	color: #3a241d;
+	text-align: center;
+}
+
+#subheading {
+	color: #3a241d;
+	text-align: center;
+}
+
+#container{
+	text-align: center;
+}
+
+button{
+    color: #3a241d;
+}
+
+.highlight {
+	background-color: yellow;
+}
+
+.error {
+	background-color: lightcoral;
+	border-color: red;
+}
